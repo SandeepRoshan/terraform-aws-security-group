@@ -28,7 +28,7 @@ in_timestamp = "240817-1530"
 in_description = "Created for the My-Ecosystem VPC network."
 
 # Single additional tag timestamp (if different from in_timestamp)
-in_tag_timestamp = "240817-1530"  # Replace with actual timestamp if needed
+in_tag_timestamp = "2408171530"  # Replace with actual timestamp if needed
 
 # Single additional tag description (if different from in_description)
 in_tag_description = "Security group for My-Ecosystem services."
