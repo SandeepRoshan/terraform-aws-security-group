@@ -93,7 +93,6 @@ variable in_description {
 variable "in_tag_timestamp" {
     description = "time"
      type = number
-     default = "240817-1530"
 }
 
 variable "in_tag_description" {
