@@ -45,3 +45,5 @@ in_tag_description = "Security group for My-Ecosystem services."
         "rmq-admin"   = [ "15672",  "15672", "tcp", "rabbitmq admin cli" ]
         "postgres"    = [ "5432",  "5432", "tcp",  "postgresql db" ]
     }
+
+    in_sg_count = 3

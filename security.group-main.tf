@@ -16,7 +16,8 @@ locals {
  | -- importing and changing the VPC's default security group.
 */
 resource "aws_security_group" "new" {
-    
+
+    count       = var.in_sg_count
     vpc_id      = var.in_vpc_id
     name        = "security-group-${ var.in_ecosystem }-${ var.in_timestamp }-n"
     description = "This new security group ${ var.in_description }"

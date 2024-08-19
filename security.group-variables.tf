@@ -102,3 +102,7 @@ variable "in_tag_description" {
     //default = "Security group for My-Ecosystem services."
 }
 
+variable "in_sg_count" {
+    description = "Number of security groups to create"
+    type        = number
+}
